@@ -79,7 +79,7 @@ export function OrderSection() {
                 size="lg"
                 asChild
               >
-                <a href="tel:+27123456789">
+                <a href="tel:+27616235271">
                   <Phone className="mr-2 h-4 w-4" /> 012 345 6789
                 </a>
               </Button>

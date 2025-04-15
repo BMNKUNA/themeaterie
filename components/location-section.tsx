@@ -68,9 +68,9 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Our Address</h3>
-                      <p className="text-gray-600">123 Vilakazi Street</p>
-                      <p className="text-gray-600">Orlando West, Soweto</p>
-                      <p className="text-gray-600">Johannesburg, 1804</p>
+                      <p className="text-gray-600">2900 Buthelezi Street</p>
+                      <p className="text-gray-600">Moroka, Soweto</p>
+                      <p className="text-gray-600">Johannesburg, 1818</p>
                     </div>
                   </div>
 
@@ -80,9 +80,9 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Opening Hours</h3>
-                      <p className="text-gray-600">Monday - Thursday: 11am - 9pm</p>
-                      <p className="text-gray-600">Friday - Saturday: 11am - 11pm</p>
-                      <p className="text-gray-600">Sunday: 12pm - 8pm</p>
+                      <p className="text-gray-600">Monday - Thursday: 9am - 9pm</p>
+                      <p className="text-gray-600">Friday - Saturday: 9am - 11pm</p>
+                      <p className="text-gray-600">Sunday: 9am - 8pm</p>
                     </div>
                   </div>
 
@@ -92,9 +92,9 @@ export function LocationSection() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Contact Us</h3>
-                      <p className="text-gray-600">Phone: 012 345 6789</p>
-                      <p className="text-gray-600">Email: info@themeaterie.co.za</p>
-                      <p className="text-gray-600">WhatsApp: +27 12 345 6789</p>
+                      <p className="text-gray-600">Phone: 061 623 5271</p>
+                      <p className="text-gray-600">Email: info@themeaterie.com</p>
+                      <p className="text-gray-600">WhatsApp: +27 61 623 5271</p>
                     </div>
                   </div>
                 </div>
