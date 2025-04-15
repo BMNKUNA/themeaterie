@@ -157,7 +157,7 @@ export function MenuSection() {
     const price = item.prices.find((p) => p.size === size)?.price || item.prices[0].price
 
     const message = `I'd like to order:\n- ${item.name}\n- Size: ${size} (${price})\n- Flavor: ${flavor}`
-    window.open(`https://wa.me/+27123456789?text=${encodeURIComponent(message)}`, "_blank")
+    window.open(`https://wa.me/+27616235271?text=${encodeURIComponent(message)}`, "_blank")
   }
 
   return (

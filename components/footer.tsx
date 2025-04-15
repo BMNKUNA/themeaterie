@@ -38,8 +38,13 @@ export function Footer() {
             </div>
             <p className="text-gray-400 text-sm">© {new Date().getFullYear()} The Meaterie. All rights reserved.</p>
             <p className="text-gray-500 text-sm mt-1">
-              Made by{" "}
-              <a href="https://www.mondenkuna.co.za" className="text-gray-400 hover:text-white transition-colors">
+              Designed by{" "}
+              <a
+                href="https://www.mondenkuna.co.za"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors"
+              >
                 M.Nkuna
               </a>
             </p>

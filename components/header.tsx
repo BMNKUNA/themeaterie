@@ -92,13 +92,13 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/60 backdrop-blur-md shadow-sm" : "bg-transparent"
+        scrolled ? "bg-white/40 backdrop-blur-sm shadow-sm" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="z-50 relative">
           {!isMenuOpen && (
-            <Image src="/themeateriewhite.png" alt="The Meaterie" width={180} height={90} className="h-16 w-auto" />
+            <Image src="/themeateriewhite.png" alt="The Meaterie" width={220} height={110} className="h-20 w-auto" />
           )}
         </Link>
 
@@ -115,23 +115,23 @@ export function Header() {
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div
-              className="fixed inset-0 bg-white/90 backdrop-blur-md z-40"
+              className="fixed md:absolute md:top-0 md:right-0 md:w-96 md:h-auto inset-0 bg-white/95 backdrop-blur-sm z-40"
               initial="closed"
               animate="open"
               exit="closed"
               variants={menuVariants}
             >
-              <div className="container mx-auto px-4 py-20 flex flex-col items-center justify-center h-full">
-                <div className="mb-12">
+              <div className="container mx-auto px-4 py-20 md:py-10 flex flex-col items-center justify-center h-full">
+                <div className="mb-12 md:mb-6">
                   <Image
                     src="/themeateriewhite.png"
                     alt="The Meaterie"
-                    width={180}
-                    height={90}
-                    className="h-16 w-auto"
+                    width={220}
+                    height={110}
+                    className="h-20 w-auto"
                   />
                 </div>
-                <nav className="flex flex-col items-center space-y-8 text-3xl font-light w-full max-w-md">
+                <nav className="flex flex-col items-center space-y-8 md:space-y-4 text-3xl md:text-xl font-light w-full max-w-md">
                   {menuItems.map((item, i) => (
                     <motion.div
                       key={item.name}
