@@ -8,7 +8,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "The Meaterie | Premium Braai in Soweto",
   description: "Authentic braied kasi meat made in the heart of Soweto.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -24,6 +23,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-import './globals.css'
