@@ -10,7 +10,7 @@ export function CTASection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
   return (
-    <section className="py-20 bg-red-600 text-white">
+    <section className="py-20 bg-black text-white">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}

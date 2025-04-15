@@ -9,7 +9,7 @@ export function AboutSection() {
   const isInView = useInView(ref, { once: true, amount: 0.2 })
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-black text-white">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}
@@ -24,15 +24,15 @@ export function AboutSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <h2 className="text-4xl font-bold mb-6">Authentic Soweto Flavors</h2>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-gray-300 mb-6">
               The Meaterie brings you the authentic taste of Soweto, with our traditional braai techniques and locally
               sourced ingredients.
             </p>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className="text-lg text-gray-300 mb-6">
               Our passion for quality meat and perfect grilling has made us a favorite in the community, serving juicy,
               flavorful cuts that keep our customers coming back.
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-lg text-gray-300">
               Whether you're craving tender chicken, succulent ribs, or perfectly grilled steak, we've got you covered
               with our selection of premium meats and signature flavors.
             </p>

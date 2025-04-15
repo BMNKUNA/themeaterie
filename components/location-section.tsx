@@ -44,7 +44,7 @@ export function LocationSection() {
   }
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-black text-white">
       <div className="container mx-auto px-4">
         <motion.div
           ref={ref}
@@ -55,46 +55,46 @@ export function LocationSection() {
         >
           <motion.div variants={itemVariants} className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Visit Us</h2>
-            <p className="text-xl text-gray-600">Come experience the authentic taste of Soweto at our location</p>
+            <p className="text-xl text-gray-300">Come experience the authentic taste of Soweto at our location</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <motion.div variants={itemVariants}>
-              <div className="bg-white p-8 rounded-lg shadow-md">
+              <div className="bg-gray-900 p-8 rounded-lg shadow-md">
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
-                    <div className="bg-red-100 p-3 rounded-full">
-                      <MapPin className="h-6 w-6 text-red-600" />
+                    <div className="bg-red-900 p-3 rounded-full">
+                      <MapPin className="h-6 w-6 text-red-500" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Our Address</h3>
-                      <p className="text-gray-600">Elias Motswaledi Rd</p>
-                      <p className="text-gray-600">Moroka, Soweto</p>
-                      <p className="text-gray-600">1818</p>
+                      <p className="text-gray-300">Elias Motswaledi Rd</p>
+                      <p className="text-gray-300">Moroka, Soweto</p>
+                      <p className="text-gray-300">1818</p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-red-100 p-3 rounded-full">
-                      <Clock className="h-6 w-6 text-red-600" />
+                    <div className="bg-red-900 p-3 rounded-full">
+                      <Clock className="h-6 w-6 text-red-500" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Opening Hours</h3>
-                      <p className="text-gray-600">Monday - Thursday: 11am - 9pm</p>
-                      <p className="text-gray-600">Friday - Saturday: 11am - 11pm</p>
-                      <p className="text-gray-600">Sunday: 12pm - 8pm</p>
+                      <p className="text-gray-300">Monday - Thursday: 11am - 9pm</p>
+                      <p className="text-gray-300">Friday - Saturday: 11am - 11pm</p>
+                      <p className="text-gray-300">Sunday: 12pm - 8pm</p>
                     </div>
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="bg-red-100 p-3 rounded-full">
-                      <Phone className="h-6 w-6 text-red-600" />
+                    <div className="bg-red-900 p-3 rounded-full">
+                      <Phone className="h-6 w-6 text-red-500" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold mb-2">Contact Us</h3>
-                      <p className="text-gray-600">Phone: 061 623 5271</p>
-                      <p className="text-gray-600">Email: orders@themeaterie.com</p>
-                      <p className="text-gray-600">WhatsApp: +27 61 623 5271</p>
+                      <p className="text-gray-300">Phone: 061 623 5271</p>
+                      <p className="text-gray-300">Email: info@themeaterie.co.za</p>
+                      <p className="text-gray-300">WhatsApp: +27 61 623 5271</p>
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export function LocationSection() {
 
             <motion.div variants={mapVariants} className="h-[400px] rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3569.9999999999995!2d27.88558!3d-26.25388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1650000000000!5m2!1sen!2sza"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.4776541196477!2d27.9054936!3d-26.2387599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c0a6ffc9379%3A0x3c5ba14c51c47898!2sElias%20Motswaledi%20Rd%2C%20Moroka%2C%20Soweto%2C%201818!5e0!3m2!1sen!2sza!4v1650000000000!5m2!1sen!2sza"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Loading } from "@/components/loading"
+import { CartProvider } from "@/hooks/use-cart"
 
 export default function ClientLayout({
   children,
@@ -28,10 +29,12 @@ export default function ClientLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {loading && <Loading />}
-          <Header />
-          {children}
-          <Footer />
+          <CartProvider>
+            {loading && <Loading />}
+            <Header />
+            {children}
+            <Footer />
+          </CartProvider>
         </ThemeProvider>
       </body>
     </html>
