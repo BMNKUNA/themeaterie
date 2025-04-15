@@ -115,7 +115,7 @@ export function OrderSection() {
                 asChild
               >
                 <a
-                  href="https://wa.me/+27123456789?text=I'd like to place an order"
+                  href="https://wa.me/+27616235271?text=I'd like to place an order"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
