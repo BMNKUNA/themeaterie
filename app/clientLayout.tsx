@@ -3,7 +3,7 @@
 import type React from "react"
 import { useState, useEffect } from "react"
 import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
+
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Loading } from "@/components/loading"
